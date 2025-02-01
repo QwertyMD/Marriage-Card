@@ -50,7 +50,7 @@ const CreateCard = ({
                   <img
                     src={images[person]}
                     alt={person}
-                    className="absolute rounded-lg w-full h-full"
+                    className="absolute rounded-lg w-full h-full object-cover"
                   />
                 )}
                 <Input
